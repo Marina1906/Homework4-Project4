@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-img {
+    background-image: url('./BannerImg.png');
+    background-color: cornflowerblue;
+    height: 500px;
+    width: 1024px;
+    left: 0px;
+    top: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 205px;
+    right: 560px;
+    left: 50px;
+    font-weight: 650;
+    font-size: 50px;
+    line-height: 55px;
+    color:bisque;
+}
+
+button {
+position: absolute;
+background-color: gold;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: flex-end; 
+align-items: center;
+padding: 12px 32px;
+width: 120px;
+height: 40px;
+border: 1px solid black;
+border-radius: 4px;
+top: 380px;
+left: 785px;
+right: 120px;
+}
+h2 { 
+position: absolute;
+top: 580px;
+right: 865px;
+left: 50px;
+font-weight: 700;
+font-style: italic;
+font-size: 38px;
+line-height: 41.5px;
+color:tan;}
+p {
+position: absolute;
+top:650px;
+left: 50px;
+right: 50px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: black;}
+.card {
+ position: absolute;
+ width: 340px;
+ height: 310px;
+top: 740px;
+left:120px;
+right: 560px;
+}
+h3, h4 {
+position: absolute;
+font-weight: 400;
+font-size: 14px;
+line-height: 16.1px;
+color: black;}
+.card2 {
+position: absolute;
+width: 340px;
+height: 310px;
+top: 0px;
+left: 500px;
+right: 900px;
+}
+.nav-item {
+display: inline-block;
+background-color: darksalmon;
+position: absolute;
+width: 1024px;
+height: 170px;}
+li, ul, a, footer {
+list-style: none;
+display: inline-block;
+margin-left: 20px;
+font-style: italic;
+flex: none;
+text-decoration-line: underline;
+color: white;}
